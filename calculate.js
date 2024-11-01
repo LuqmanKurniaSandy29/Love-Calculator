@@ -121,10 +121,4 @@ function calculateCompatibility(fname, sname) {
             });
         }
     });
-
-    $('.theme-switch__checkbox').on('change', function() {
-        $('body').toggleClass('day-mode');
-        $('.card').toggleClass('day-mode');
-        $('.button').toggleClass('day-mode');
-    });
 }  
